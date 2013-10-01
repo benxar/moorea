@@ -5,5 +5,6 @@ function InboxController($scope, $http) {
 			"oLanguage": {
 			"sLengthMenu": "Cantidad de _MENU_ "
 			}
+			
 	});
 }
