@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="es" ng-app="app">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Moorea</title>
+
+	</head>
+
+	<head>
+
+		<!-- start: Meta -->
+		<meta charset="utf-8">
+		<title>AR Compras</title>
+		<meta name="description" content="ACME Dashboard Bootstrap Admin Template.">
+		<meta name="author" content="Łukasz Holeczek">
+		<meta name="keyword" content="ACME, Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+		<!-- end: Meta -->
+
+		<!-- start: Mobile Specific -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- end: Mobile Specific -->
+
+		<!-- start: CSS -->
+		<link href="src/lib/css/bootstrap.min.css" rel="stylesheet">
+		<link href="src/lib/css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link href="src/lib/css/style.min.css" rel="stylesheet">
+		<link href="src/lib/css/style-responsive.min.css" rel="stylesheet">
+		<link href="src/lib/css/retina.css" rel="stylesheet">
+
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+		<link rel="shortcut icon" href="ico/favicon.png">
+		<!-- end: Favicon and Touch Icons -->
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+
+		<script src="src/lib/js/theme.js"></script>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
+
+		<script src="src/app.js"></script>
+		<script src="src/controllers/InboxController.js"></script>
+
+		<script>
+			//===== Dynamic table toolbars =====//
+
+			function openModalfiltros() {
+				$("div.dialog").css({
+					position : 'fixed',
+					left : ($("#filtrosAvanzados").position().left - 310),
+					top : ($("#filtrosAvanzados").position().top + 260)
+				});
+				$("#ModalFilter").show();
+
+			}
+
+			function closeModalfiltros() {
+				$("#ModalFilter").hide();
+
+			}
+
+
+			$('#filtroAvanzado').html($('#filtroAvanzado').html());
+
+		</script>
+	</head>
+
+	<body>
+
+		<div ng-view></div>
+
+		<script src="src/lib/js/jquery-1.9.1.min.js"></script>
+		<script src="src/lib/js/jquery-migrate-1.0.0.min.js"></script>
+		<script src="src/lib/js/jquery-ui-1.10.0.custom.min.js"></script>
+		<script src="src/lib/js/jquery.ui.touch-punch.js"></script>
+		<script src="src/lib/js/modernizr.js"></script>
+		<script src="src/lib/js/bootstrap.min.js"></script>
+		<script src="src/lib/js/jquery.cookie.js"></script>
+		<script src='src/lib/js/fullcalendar.min.js'></script>
+		<script src='src/lib/js/jquery.dataTables.minCustom.js'></script>
+		<script src="src/lib/js/excanvas.js"></script>
+		<script src="src/lib/js/jquery.flot.js"></script>
+		<script src="src/lib/js/jquery.flot.pie.js"></script>
+		<script src="src/lib/js/jquery.flot.stack.js"></script>
+		<script src="src/lib/js/jquery.flot.resize.min.js"></script>
+		<script src="src/lib/js/gauge.min.js"></script>
+		<script src="src/lib/js/jquery.chosen.min.js"></script>
+		<script src="src/lib/js/jquery.uniform.min.js"></script>
+		<script src="src/lib/js/jquery.cleditor.min.js"></script>
+		<script src="src/lib/js/jquery.noty.js"></script>
+		<script src="src/lib/js/jquery.elfinder.min.js"></script>
+		<script src="src/lib/js/jquery.raty.min.js"></script>
+		<script src="src/lib/js/jquery.iphone.toggle.js"></script>
+		<script src="src/lib/js/jquery.uploadify-3.1.min.js"></script>
+		<script src="src/lib/js/jquery.gritter.min.js"></script>
+		<script src="src/lib/js/jquery.imagesloaded.js"></script>
+		<script src="src/lib/js/jquery.masonry.min.js"></script>
+		<script src="src/lib/js/jquery.knob.modified.js"></script>
+		<script src="src/lib/js/jquery.sparkline.min.js"></script>
+		<script src="src/lib/js/counter.js"></script>
+		<script src="src/lib/js/raphael.2.1.0.min.js"></script>
+		<script src="src/lib/js/justgage.1.0.1.min.js"></script>
+		<script src="src/lib/js/retina.js"></script>
+		<script src="src/lib/js/core.min.js"></script>
+		<script src="src/lib/js/charts.js"></script>
+		<script src="src/lib/js/custom.js"></script>
+
+	</body>
+</html>

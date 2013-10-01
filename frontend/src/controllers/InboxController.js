@@ -1,0 +1,3 @@
+function InboxController($scope, $http) {
+	
+}
