@@ -1,0 +1,53 @@
+[
+	{
+		"legajo":"1234" ,
+		"TipoDeProcedimiento":"Tramite simplificado",
+		"anio":"2013",
+		"tarea":"tarea 4",
+		"objeto":"objeto 2",
+		"fecha":"2-2-2013 12:00hs",
+		"estado":"Ingresado"},
+		{
+		"legajo":"3445",
+		"TipoDeProcedimiento":"Tramite simplificado",
+		"anio":"2013",
+		"tarea":"tarea 2",
+		"objeto":"objeto 6",
+		"fecha":"2-2-2013 12:00hs",
+		"estado":"Ingresado"},
+		{
+		"legajo":"0987",
+		"TipoDeProcedimiento":"Tramite simplificado",
+		"anio":"2012",
+		"tarea":"tarea 8",
+		"objeto":"objeto 9",
+		"fecha":"2-2-2013 12:00hs",
+		"estado":"Ingresado"},
+		{
+		"legajo":"1234789",
+		"TipoDeProcedimiento":"Tramite simplificado",
+		"anio":"2013",
+		"tarea":"tarea 4",
+		"objeto":"objeto 2",
+		"fecha":"2-2-2013 12:00hs",
+		"estado":"Ingresado"},
+		{
+		"legajo":"1234789",
+		"TipoDeProcedimiento":"Tramite simplificado",
+		"anio":"2013",
+		"tarea":"tarea 4",
+		"objeto":"objeto 2",
+		"fecha":"2-2-2013 12:00hs",
+		"estado":"Ingresado"},
+		{
+		"legajo":"1234789",
+		"TipoDeProcedimiento":"Tramite simplificado",
+		"anio":"2013",
+		"tarea":"tarea 4",
+		"objeto":"objeto 2",
+		"fecha":"2-2-2013 12:00hs",
+		"estado":"Ingresado"}
+]
+
+
+	
