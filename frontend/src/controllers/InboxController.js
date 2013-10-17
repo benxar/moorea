@@ -30,7 +30,7 @@ function InboxController($scope,  $http, $routeParams) {
 			"mData" : function (oObj)                              
                   {
                       // call Modal
-                      var a = "<div class='btn-group'><button class='btn glow'>Accion</button> <button data-toggle='dropdown' class='btn glow dropdown-toggle'><span class='caret'></span></button><ul class='dropdown-menu'><li><i class='halflings-icon eye-open-open'></i> Ver</li><li><a data-toggle='modal' href='#myModal'><i class='halflings-icon ok'></i> Liberar</a></li></ul></div>";                            
+                      var a = "<div class='btn-group'><button class='btn glow'>Accion</button> <button data-toggle='dropdown' class='btn glow dropdown-toggle'><span class='caret'></span></button><ul class='dropdown-menu'><li><a href='#'><i class='halflings-icon white eye-open-open'></i> Ver</a></li><li><a data-toggle='modal' href='#myModal'><i class='halflings-icon white ok'></i> Liberar</a></li></ul></div>";                            
                       return a;
                   }
                   }
